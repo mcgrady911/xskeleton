@@ -14,7 +14,6 @@ import io.reactivex.schedulers.Schedulers;
  * @date : 2018/3/15
  * @desc :
  */
-
 public class RxTransformer {
 
     /**

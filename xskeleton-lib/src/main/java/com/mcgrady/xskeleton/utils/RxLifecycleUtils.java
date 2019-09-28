@@ -1,5 +1,7 @@
 package com.mcgrady.xskeleton.utils;
 
+import android.support.annotation.NonNull;
+
 import com.mcgrady.xskeleton.base.IView;
 import com.mcgrady.xskeleton.lifecycle.ActivityLifecycleable;
 import com.mcgrady.xskeleton.lifecycle.FragmentLifecycleable;
@@ -10,11 +12,10 @@ import com.trello.rxlifecycle2.android.ActivityEvent;
 import com.trello.rxlifecycle2.android.FragmentEvent;
 import com.trello.rxlifecycle2.android.RxLifecycleAndroid;
 
-import io.reactivex.annotations.NonNull;
 
 /**
  * RxLifecycle 工具栏
- * <p>
+ *
  * Created by mcgrady on 2019/4/26.
  */
 public class RxLifecycleUtils {

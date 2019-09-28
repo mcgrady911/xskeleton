@@ -1,12 +1,13 @@
 package com.mcgrady.xskeleton.http.handler;
 
+import android.support.annotation.NonNull;
+
 import com.blankj.utilcode.util.LogUtils;
 
 import java.util.concurrent.TimeUnit;
 
 import io.reactivex.Observable;
 import io.reactivex.ObservableSource;
-import io.reactivex.annotations.NonNull;
 import io.reactivex.functions.Function;
 
 /**

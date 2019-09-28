@@ -29,4 +29,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(path: ':xskeleton-lib')
+
+    implementation rootProject.ext.dependencies["autosize"]
 }

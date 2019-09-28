@@ -1,5 +1,7 @@
 package com.mcgrady.xskeleton.http.handler;
 
+import android.support.annotation.NonNull;
+
 import com.blankj.utilcode.util.LogUtils;
 
 import org.reactivestreams.Publisher;
@@ -7,7 +9,6 @@ import org.reactivestreams.Publisher;
 import java.util.concurrent.TimeUnit;
 
 import io.reactivex.Flowable;
-import io.reactivex.annotations.NonNull;
 import io.reactivex.functions.Function;
 
 /**

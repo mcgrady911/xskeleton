@@ -1,5 +1,6 @@
 package com.mcgrady.xskeleton.http.handler;
 
+import android.support.annotation.NonNull;
 import android.text.TextUtils;
 
 import com.hjq.toast.ToastUtils;
@@ -7,7 +8,6 @@ import com.mcgrady.xskeleton.http.interf.IBaseResponse;
 import com.mcgrady.xskeleton.http.interf.ResponseCallback;
 
 import io.reactivex.Observer;
-import io.reactivex.annotations.NonNull;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 

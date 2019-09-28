@@ -14,7 +14,7 @@ public class HttpLogUtils {
     private static boolean isLog = true;
 
     private HttpLogUtils() {
-        throw new IllegalStateException("you can't instantiate me!");
+        throw new IllegalStateException("You can't instantiate me!");
     }
 
     public static boolean isLog() {
